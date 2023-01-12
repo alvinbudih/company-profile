@@ -36,7 +36,7 @@
         />
 
         <!-- Skin Color -->
-        <link rel="stylesheet" href="{{ asset('assets/css/colors/green.css') }}" id="color-skins" />
+        <link rel="stylesheet" href="{{ asset('assets/css/colors/blue.css') }}" id="color-skins" />
     </head>
     <body>
         <!-- Start Preloader -->
@@ -80,7 +80,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand to-top" rel="home" href="#">
-                            <img
+                            {{-- <img
                                 src="{{ asset('assets/img/assets/logo-white.png') }}"
                                 alt="Visual"
                                 class="logo-big"
@@ -89,7 +89,10 @@
                                 src="{{ asset('assets/img/assets/logo-dark.png') }}"
                                 alt="Visual"
                                 class="logo-small"
-                            />
+                            /> --}}
+                            {{-- <img src="{{ asset('assets/img/assets/pln-removebg-preview.png') }}" alt="PAGUNTAKA CAHAYA NUSANTARA" width="250px"> --}}
+                            <img class="logo-big" src="{{ asset('assets/img/assets/pln-removebg-preview.png') }}" alt="PAGUNTAKA CAHAYA NUSANTARA">
+                            <img class="logo-small" src="{{ asset('assets/img/assets/pln-removebg-preview.png') }}" alt="PAGUNTAKA CAHAYA NUSANTARA">
                         </a>
                     </div>
 

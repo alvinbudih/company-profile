@@ -96,20 +96,35 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="main-nav">
                         <ul class="nav navbar-nav navbar-right">
-                            <li>
+                            <li class="nav-item">
                                 <a class="to-top"> Home </a>
                             </li>
-                            <li class="to-section">
-                                <a href="#about"> About Us </a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"> Profil </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Tentang Kami</a></li>
+                                  <li><a class="dropdown-item" href="#">Profile Direksi</a></li>
+                                  <li><a class="dropdown-item" href="#">Tata Kelola</a></li>
+                                  <li><a class="dropdown-item" href="#">Visi Misi</a></li>
+                                  <li><a class="dropdown-item" href="#">Tata Nilai</a></li>
+                                  <li><a class="dropdown-item" href="#">Manajemen Resiko</a></li>
+                                  <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
+                                  <li><a class="dropdown-item" href="#">Wilayah Kerja</a></li>
+                                  <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                </ul>
                             </li>
-                            <li class="to-section">
-                                <a href="#team"> Team </a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"> Karir </a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#" class="dropdown-item">Informasi</a></li>
+                                  <li><a href="#" class="dropdown-item">Hasil Seleksi</a></li>
+                                </ul>
                             </li>
-                            <li class="to-section">
-                                <a href="#portfolio"> Portfolio </a>
+                            <li class="nav-item">
+                                <a href="#portfolio"> Info Pengadaan </a>
                             </li>
-                            <li class="to-section">
-                                <a href="#contact"> Contact </a>
+                            <li class="nav-item">
+                                <a href="#contact"> AKHLAK </a>
                             </li>
                         </ul>
                     </div>
